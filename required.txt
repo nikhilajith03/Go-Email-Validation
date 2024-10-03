@@ -1,0 +1,11 @@
+Install the required packages:
+go mod init email-verification
+go get github.com/gorilla/mux
+go get gopkg.in/gomail.v2
+ 
+Run the Go application:
+go run main.go
+ 
+Set your email credentials as environment variables:
+export EMAIL="your-email@example.com"
+export PASSWORD="your-email-password"
